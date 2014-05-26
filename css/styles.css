@@ -1,23 +1,52 @@
-
 .masthead {
-	text-align: center;
-	padding-top:20px;
+	
 }
 
 ul li {
 	display: inline-block;
+	font-size: 14px;
 	padding: 5px 20px;
-	background-color: #E0E0E0;
 }
+
+ul li a {
+	color:#daedff;
+}
+
 
 ul {
 	margin-left: 0;
+}
+
+.navigation {
+	background-color: #000;
+	text-align: center;
+	/*background-color: #07114A;*/
 }
 
 .mainbody {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #E8E8EE;
+
+}
+
+.leftmast {
+	z-index: 111110;
+	position:absolute;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+
+.rightmast {
+	z-index: 1111;
+	float:right;
+	position:absolute;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+
+.mainlogo {
+	text-align: center;
 }
 
 .temporarylogo {
@@ -35,10 +64,9 @@ ul {
 }
 
 .footer {
-	height: 20%;
+	color: #fff;
 	width: 100%;
-	background-color: #FFF;
-
+	background-color: #000;
 }
 
 #imagebox {
@@ -48,4 +76,8 @@ ul {
 #rightbox {
 	background-color:#D0D0D0;
 	height: 320px;
+}
+
+.contactinfo, .aboutsummary, .connect {
+	text-align: center;
 }
