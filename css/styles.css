@@ -7,12 +7,12 @@ body, p {
 
 ul li {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 5px 20px;
 }
 
 ul li a {
-	color:#daedff;
+	color: #daedff;
 }
 
 
@@ -50,6 +50,10 @@ ul {
 	margin-top: 9%;
 	margin-left: 10%;
 	font-size: 18px;
+}
+
+.masthead {
+	box-shadow: 2px 2px 5px #CCC;
 }
 
 .mainlogo {
@@ -95,6 +99,38 @@ ul {
 	height: 320px;
 }
 
+.righttext {
+	padding-top: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.storybutton {
+	text-align: center;
+}
+
+.storybutton a {
+	font-size: 20px;
+}
+
 .contactinfo, .aboutsummary, .connect {
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #daedff;
+}
+
+.info {
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 14px;
+	color: #daedff;
+}
+
+.footsect {
+	padding-bottom: 10px;
+}
+
+.carousel {
+	height: 50%;
 }
