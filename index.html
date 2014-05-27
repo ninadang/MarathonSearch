@@ -7,49 +7,51 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/foundation.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
 	<script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
 	<div class="masthead">
 		<ul class="navigation">
+			<li><a href="#">About</a></li>
 			<li><a href="#">Why Marathon Search?</a></li>
 			<li><a href="#">Clients</a></li>
 			<li><a href="#">Testimonials</a></li>
-			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
 
-		<span class="leftmast">Restaurant Recruitment Service</span>
+		<span class="leftmast">Hospitality Executive Recruitment Service</span>
 
 		<a href="index.html">
 		<div class="mainlogo">
 			<img src="img/runner.png" width="20%">
 			</a>
-			<span class="rightmast">Serving clients since 1992</span>
+			<span class="rightmast">Serving clients since 1987</span>
 		</div>
 	</div> <!--end masthead-->
 	<div class="mainbody">
 		<div id="hero" class="row">
-			<div id ="imagebox" class="large-8 columns">
+			<div id ="featuredContent" class="large-8 columns">
 				<!--<img src="img/636x320.gif" alt="placeholder">-->
 				<ul class="carousel" data-orbit>
 				  <li>
-				    <img src="img/cafe.jpg" alt="slide 1" />
-				    <div class="orbit-caption">
-				      Recruiting in the Restaurant and Hospitality Industry 
+				  	<div class="movetoleft">
+				  	<h4>Recruiting in the Restaurant and Hospitality Industry</h4>
 				    </div>
+				    <img class="back" src="img/cafe.jpg" alt="slide 1" />
 				  </li>
 				  <li class="active">
-				    <img src="img/bar.jpg" alt="slide 2" />
-				    <div class="orbit-caption">
-				      Going the Distance <br> We find the right fit
-				    </div>
+				  	<div class="movetoleft">
+				  	<h4>Going the Distance</h4>
+				  </div>
+				  	<p>We'll find the right fit for you</p>
+				    <img class="back" src="img/bar.jpg" alt="slide 2" />
 				  </li>
 				  <li>
-				    <img src="img/table.jpg" alt="slide 3" />
-				    <div class="orbit-caption">
-				      Establishing long lasting relationships
-				    </div>
+				  	<div class="movetoleft">
+				  	<h4>Establishing long lasting relationships</h4>
+				  	</div>
+				    <img class="back" src="img/table.jpg" alt="slide 3" />
 				  </li>
 				</ul>
 				
@@ -110,9 +112,17 @@
 	</div> <!--end footer-->
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/foundation.min.js"></script>
+	<script src="js/foundation/foundation.orbit.js"></script>
+	<script src="js/foundation/app.js"></script>
 	<script>
       $(document).foundation();
     </script>
+
+    <script type="text/javascript">
+    	$(window).load(function() {
+
+    });
+  </script>
 </body>
 </html>
 

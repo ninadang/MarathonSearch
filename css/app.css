@@ -1,0 +1,53 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+#featuredContent .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#featuredContent h4 {
+	margin-top: 320px;
+	font-size: 34px;
+	color: #fff;
+	padding: 5px;
+	width: 800px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: 'Georgia';
+
+}
+
+#featuredContent p {
+	color: #fff;
+}
+
+.movetoleft {
+
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
