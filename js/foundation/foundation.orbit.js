@@ -232,7 +232,7 @@
     self.compute_dimensions = function() {
       var current = $(self.slides().get(idx));
       //var h = current.height();
-      var h = 360;
+      var h = 320;
       if (!settings.variable_height) {
         self.slides().each(function(){
           if ($(this).height() > h) { h = $(this).height(); }

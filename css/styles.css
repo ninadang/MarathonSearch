@@ -39,7 +39,7 @@ ul {
 	z-index: 111110;
 	position:absolute;
 	margin-top: 9%;
-	margin-left: 10%;
+	margin-left: 15%;
 	font-size: 16px;
 }
 
@@ -49,7 +49,7 @@ ul {
 	float:right;
 	position:absolute;
 	margin-top: 9%;
-	margin-left: 10%;
+	margin-left: 6%;
 	font-size: 16px;
 }
 
@@ -97,7 +97,7 @@ ul {
 
 #rightbox {
 	background-color:#D0D0D0;
-	height: 416px;
+	height: 426px;
 }
 
 .righttext {
